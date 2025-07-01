@@ -56,7 +56,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 const projectData = {
     exhibitionCurator: {
         title: "Exhibition Curator",
-        image: "img/stack-exhibiton-curator.png",
+        image: "img/stack-exhibition-curator.png",
         description: "Web platform to curate custom virtual art exhibitions using public museum collections.",
         points: [
             "Interactive Interface — Search, browse, and curate artworks from Harvard Art Museums and the Cleveland Museum of Art.",
