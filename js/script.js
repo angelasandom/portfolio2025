@@ -40,49 +40,32 @@ navLinks.forEach(link => {
     });
 });
 
-// //scroll reveal
-// ScrollReveal({ 
-//     reset: true,
-//     distance: '80px',
-//     duration: 2000,
-//     delay: 200
-// });
+//scroll reveal
+ScrollReveal({ 
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
 
-// ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-// ScrollReveal().reveal('.home-img, .skills-container, projects.box, .contact-form', { origin: 'bottom' });
-// ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-
-// //typed js
-//  const typed = new Typed('.multiple-text', {
-//    strings: ['UX Designer', 'Software Developer'],
-//    typeSpeed: 100,
-//     backSpeed: 100,
-//     backDelay: 1000,
-//    loop: true
-// })
-
-// const typed = new Typed('.multiple-text', {
-//     strings: ['Software Developer'],
-//     typeSpeed: 100,
-//     backSpeed: 100,
-//     backDelay: 1000,
-//     loop: false,
-// });
-
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .skills-container, .projects-box, .contact-form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 
 //popup
 const projectData = {
-    ncnews: {
-        title: "NC News",
-        image: "img/stack-ncnews.png",
-        description: "Full-Stack Development of a News Platform with a RESTful API and Interactive UI",
+    exhibitionCurator: {
+        title: "Exhibition Curator",
+        image: "img/stack-exhibiton-curator.png",
+        description: "Web platform to curate custom virtual art exhibitions using public museum collections.",
         points: [
-            "NC News is a full-stack web application — Featuring a RESTful API that manages news articles, comments, and user interactions. It includes a backend built with Node.js and PostgreSQL and a frontend developed with React.js and CSS, ensuring a seamless user experience.",
-            "The backend supports filtering, sorting, pagination, and full CRUD operations for articles and comments. — It follows a Test-Driven Development approach using Jest and Supertest.",
-            "The frontend, built with React.js, provides a responsive interface that allows users to browse, vote, and comment on articles. — Optimistic rendering ensures a smooth experience, while robust error handling enhances usability and reliability.",
-            "The backend is deployed separately and consumed via API calls, utilizing pg-format for PostgreSQL queries, and Axios for API requests. — The design prioritizes accessibility and ease of use, with intuitive navigation and a clean UI."
-        ],
-        link: "https://angela-nc-news.netlify.app/"
+            "Interactive Interface — Search, browse, and curate artworks from Harvard Art Museums and the Cleveland Museum of Art.",
+            "User Accounts — Login via email or Google to save collections and access them anytime.",
+            "Responsive Design — Optimized for desktop, tablet, and mobile viewing.",
+            "Tech Stack — React with TypeScript, Firebase Auth, MongoDB Atlas, Express backend, and Harvard/Cleveland museum APIs."
+    ],
+
+        link: "https://exhibition-curator-art-gallery.netlify.app/"
     },
     worldwhizz: {
         title: "World Whizz",
@@ -119,18 +102,6 @@ const projectData = {
             "Accessibility & Inclusive Design — Evaluated design accessibility to ensure an inclusive and user-friendly experience."
         ],
         link: "https://www.figma.com/design/xVzAoNppgVRCqPp4yVjjSB/OUTLANDS-APP?t=t4Uv45SbvLMwa53a-0"
-    },
-    gamedesign: {
-        title: "Simulator Game Design",
-        image: "img/stack-game-design.png",
-        description: "Flight simulator Battle Pass - Axes in Motion (selection process test).",
-        points: [
-            "Goal — Designed a Battle Pass screen for a flight simulator game under a one-week deadline.",
-            "Research — Analyzed airplane and car games, using industry resources for UI trends.",
-            "Design — Created wireframes in Figma, with radar-inspired aesthetics and an 8px grid system.",
-            "Learning — Improved game UI/UX skills, refining workflows and user-focused design."
-        ],
-        link: "https://www.figma.com/design/oTJ6T9hX8twpI8lioaDolz/Untitled?node-id=0-1&t=UL8UFNrrJpzGgk3w-1"
     }
 };
 

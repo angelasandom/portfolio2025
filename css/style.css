@@ -51,18 +51,6 @@ section {
     border-bottom: .1rem solid rgba(0, 0,  0, .2)
 }
 
-/* .name {
-    color: var(--main-color);
-    font-size: 4rem;
-} */
-
-/* .logo {
-    font-size: 2rem;
-    color: var(--text-color);
-    font-weight: 600;
-    cursor: default;
-} */
-
 .navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -166,7 +154,7 @@ span {
 
 .btn {
     display: inline-block;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1.3rem 7rem;
     background: var(--main-color-lighter);
     border-radius: 4rem;
@@ -307,7 +295,7 @@ span {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
     padding-bottom: 4rem;
     width: fit-content; 
