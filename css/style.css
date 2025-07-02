@@ -111,6 +111,10 @@ span {
     color: var(--main-color)
 }
 
+.intro {
+    color: var(--main-color-lighter)
+}
+
 .home-content p {
     margin: 2rem 0;
     font-size: 1.6rem;
